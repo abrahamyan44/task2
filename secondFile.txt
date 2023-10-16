@@ -3,6 +3,11 @@ another line 2
 another line 3
 another line 4 
 changed line 5 in git_1
+changed line 1 
+another line 2
+another line 3
+another line 4 
+changed line 5
 another line 6
 another line 7
 another line 8
