@@ -6,6 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>jenkins-homework</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -41,6 +42,11 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version>
             </plugin>
         </plugins>
     </build>
